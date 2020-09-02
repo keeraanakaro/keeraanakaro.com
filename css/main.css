@@ -2213,7 +2213,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		.copyright p {
 			margin-bottom: 0;
 			color: #fff;
-			font-size: .98em;
+			font-size:.97em;
 			letter-spacing: 0px;
 		}
 

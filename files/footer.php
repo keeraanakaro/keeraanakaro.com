@@ -51,18 +51,9 @@
 			</div>
 			<div class="row">
 				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-mb-12 text-center ">
-						<div class="textwidget float-left">
+						<div class="textwidget text-center">
 							<p><b>Made with <i class="lni-heart-filled" style="color:#F44336;"></i> in India</b></p>
 						</div>
-						<div class="float-right">  
-							<ul class="footer-social">
-								<li><a class="facebook" href="#"><i class="lni-facebook-filled"></i></a></li>
-								<li><a class="twitter" href="#"><i class="lni-twitter-filled"></i></a></li>
-								<li><a class="linkedin" href="#"><i class="lni-linkedin-fill"></i></a></li>
-								<li><a class="google-plus" href="#"><i class="lni-google-plus"></i></a></li>
-							</ul> 
-						</div>
-
 				</div>
 			</div>
 		</div>
@@ -74,10 +65,12 @@
 					<div class="col-md-12">
 						<div class="site-info text-center">
 							<p>&copy; <?=date('Y')?> Keeraana E-commerce Services Pvt. Ltd. All Rights Reserved.</p>
+							<p>CIN : U52100PN2020PTC190785. Udyog Aadhaar Registration : UDYAM-MH-29-0001091</p>
+							<p>Regd. Office : FL 4 Hari Prasad Complex, Vantmure Corner, Miraj, Sangli, Maharashtra, India, 416410.</p>
 						</div>
 					</div>
 
-					<div class="col-md-12 text-center" style="font-size:.8em;">
+					<div class="col-md-12 text-center" style="font-size:.7em;">
 						<p>All logos and trade names belong to their respective owners and are hereby acknowledged.</p>
 						<p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners.</p>
 					</div>

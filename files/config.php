@@ -1,9 +1,9 @@
 <?php
 
 if ( $_SERVER['HTTP_HOST'] == 'localhost') {
-	$url = 'http://'.$_SERVER['HTTP_HOST'].'/proton/';
+	$url = 'http://'.$_SERVER['HTTP_HOST'].'/keeraanakaro.com/';
 }else{
-	$url = 'https://keeraanakaro.com/';    
+	$url = 'https://keeraanakaro.com/';
 }
 
 $title = 'Keeraanakaro | Grocery Delivery services';
