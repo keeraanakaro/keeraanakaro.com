@@ -2,10 +2,12 @@
 
 $string = '';
 
-if (isset($_POST['submit']) && $_POST['password'] == '1234'){
-	$string = exec("git pull");
-}else{
-	$string = "Wrong Password.";
+if (isset($_POST['upload'])){
+	if ($_POST['password'] == '1234') {
+		$string = exec("git pull");
+	}else{
+		$string = 'Wrong Password';
+	}
 }
 
 ?>
@@ -33,8 +35,8 @@ if (isset($_POST['submit']) && $_POST['password'] == '1234'){
 		<label for="inputPassword">Password</label>
 		</div>
 
-		<input class="btn btn-lg btn-success btn-block" type="submit" name="submit" value="UPLOAD">
 		<p class="text-center" style="font-size:12px;color:#777;">All Activities on this Page are Tracked & Monitored</p>
+		<input class="btn btn-lg btn-success btn-block" type="submit" name="upload" value="UPLOAD">		
 
 		<p class="mt-5 bt-5 text-muted text-center"><?=$string?></p>
 
