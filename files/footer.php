@@ -40,9 +40,9 @@
 					<div class="widget">
 						<h3 class="block-title">Support</h3>
 						<ul class="menu">
-							<li><a href="<?=$url;?>404.php">Terms & Conditions</a></li>
+							<li><a href="<?=$url;?>terms_conditions.php">Terms & Conditions</a></li>
 							<li><a href="<?=$url;?>404.php">Refund & Cancellation</a></li>
-							<li><a href="<?=$url;?>404.php">Privacy Policy</a></li>
+							<li><a href="<?=$url;?>privacy_policy.php">Privacy Policy</a></li>
 							<li><a href="<?=$url;?>404.php">Cookie Policy</a></li>
 							<li><a href="<?=$url;?>404.php">Offer Terms</a></li>
 						</ul>

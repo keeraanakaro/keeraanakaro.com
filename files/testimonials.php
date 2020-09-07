@@ -1,4 +1,4 @@
-	<section id="testimonial" class="section">
+<!-- 	<section id="testimonial" class="section">
 		<div class="container">
 			<div class="section-header">   
 				<p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Reviews</p>
@@ -67,4 +67,4 @@
 			</div>
 		</div>
 	</section>
-	<!-- Testimonial Section End -->  
+	<!-- Testimonial Section End -->   -->
