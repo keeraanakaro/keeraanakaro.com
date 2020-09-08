@@ -1,8 +1,5 @@
-	<!-- Clients Section -->
-	<div id="clients" class="section">
-		<!-- Container Ends -->
+<!-- 	<div id="clients" class="section">
 		<div class="container">
-			<!-- Row and Scroller Wrapper Starts -->
 			<div class="row" id="clients-scroller">
 				<div class="client-item-wrapper">
 					<img src="<?=$url?>img/brands/brands1.png" alt="">
@@ -21,5 +18,4 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<!-- Client Section End --> 
+	</div> -->

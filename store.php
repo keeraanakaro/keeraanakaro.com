@@ -44,7 +44,7 @@
 			<div class="row">
 
 				<?php
-				$sql = "SELECT name, shop_name, image, vendor_number FROM vendor_master";
+				$sql = "SELECT name, shop_name, image, vendor_number FROM vendor_master WHERE status = '1' ";
 				$result = $conn->query($sql);
 
 				if ($result->num_rows > 0) {
