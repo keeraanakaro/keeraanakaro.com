@@ -2,8 +2,12 @@
 
 if ( $_SERVER['HTTP_HOST'] == 'localhost') {
 	$url = 'http://'.$_SERVER['HTTP_HOST'].'/keeraanakaro.com/';
+	$keeraana_dashboard_url = 'http://localhost/keeraana/';
+	$db_password = 'x';
 }else{
 	$url = 'https://keeraanakaro.com/';
+	$keeraana_dashboard_url = 'https://virajify.com/keeraana/';
+	$db_password = 'qmzpal#3792';
 }
 
 $title = 'Keeraanakaro | Grocery Delivery services';
@@ -11,12 +15,11 @@ $description = 'Keeraanakaro is an delivery services organization based in India
 $playstore = 'https://play.google.com/store/apps/details?id=com.keeraanakaro.user';
 $applestore = 'https://apps.apple.com/in/app/keeraanakaro/id1524161506';
 
-// $servername = "localhost";
-// $username = "username";
-// $password = "password";
-// $dbname = "myDB";
+$servername = "localhost";
+$username = "root";
+$dbname = "keeraana";
 
-// $conn = new mysqli($servername, $username, $password, $dbname);
-// if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
+$conn = new mysqli($servername, $username, $db_password, $dbname);
+if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
 
 ?>

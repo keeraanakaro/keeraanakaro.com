@@ -1834,6 +1834,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 		#blog .blog-item-img {
 			position: relative;
+			cursor: pointer;
 		}
 
 		#blog .blog-item-img img {
