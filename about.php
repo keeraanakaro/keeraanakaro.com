@@ -3,14 +3,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Proton - Bootstrap 4 Template</title>
-
 	<?php require_once('files/metatags.php'); ?>
 
 	<?php require_once('files/assets_css.php'); ?>
-
 </head>
-
 
 <body>
 
@@ -172,8 +168,6 @@
 
 
 	<?php require_once('files/testimonials.php'); ?>
-
-	<?php require_once('files/brands.php'); ?>
 
 	<?php require_once('files/footer.php'); ?>
 

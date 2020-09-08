@@ -1,14 +1,11 @@
-<?php require_once('files/config.php'); ?>
+<?php require_once('files/config.php');?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Proton - Bootstrap 4 Template</title>
-
 	<?php require_once('files/metatags.php'); ?>
 
 	<?php require_once('files/assets_css.php'); ?>
-
 </head>
 
 <style type="text/css">
@@ -39,7 +36,10 @@
 		</div>
 	</header>
 
-	<!-- features Section Start -->
+
+	<?php require_once('files/upcoming_feature.php'); ?>
+
+
 	<div id="app-features" class="section">
 		<div class="container">
 			<div class="section-header">   
@@ -145,9 +145,9 @@
 			</div>
 		</div>
 	</div>
-	<!-- features Section End -->
 
-	<!-- Start Video promo Section -->
+
+
 	<section class="video-promo section">
 		<div class="overlay"></div>
 		<div class="container">
@@ -161,7 +161,6 @@
 			</div>
 		</div>
 	</section>
-	<!-- End Video Promo Section -->
 
 
 	<?php require_once('files/screens_slider.php'); ?>

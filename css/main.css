@@ -493,8 +493,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		}
 
 		.menu-bg {
-			background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%) !important;
-			background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
+
+			background: -moz-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: -webkit-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: -ms-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%);
+
 			box-shadow: 0 0 7px 1px rgba(0, 0, 0, 0.1);
 			z-index: 9999;
 			padding: 5px;
@@ -663,9 +667,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		height: 100%;
 		top: 0px;
 		left: 0px;
-		background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-		background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-		background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+		background: -moz-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+		background: -webkit-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+		background: -ms-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+		background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%);
 	}
 
 	.hero-area-2 .contents {
@@ -801,12 +806,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 /* ==========================================================================
 		Video promo Style
 		========================================================================== */
+
 		.video-promo {
-/*			background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			*/
-			background: url("https://i.pinimg.com/originals/fe/1d/54/fe1d542190019e1c5333c5b68ed1c948.jpg") no-repeat center center;
+			background: #00dbff;
+			background: #00dbff;
+			background: #00dbff;
+			
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -1118,9 +1123,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 			border-radius: 50px;
 			text-align: center;
 			position: relative;
-			background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+			background: -moz-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: -webkit-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: -ms-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%);
 			z-index: 1;
 			-webkit-transition: all 0.2s linear;
 			-moz-transition: all 0.2s linear;
@@ -1974,9 +1980,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 	Subscribe Style
 	========================================================================== */
 	#subscribe {
-		background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-		background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-		background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+		background: -moz-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+		background: -webkit-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+		background: -ms-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+		background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%);
 		position: relative;
 	}
 
@@ -2130,9 +2137,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		}
 
 		footer .footer-Content {
-			background-image: -moz-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
-			background-image: -ms-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
+			background: -moz-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: -webkit-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: -ms-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
+			background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%);
 			padding: 60px 0 0px;
 			color: #546E7A;
 		}
