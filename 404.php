@@ -8,8 +8,6 @@
 	<?php require_once('files/assets_css.php'); ?>
 </head>
 
-
-
 <body>
 
 	<header id="home" class="hero-area-2">
@@ -31,8 +29,6 @@
 			</div> 
 		</div>
 	</header>
-
-
 
 
 	<?php require_once('files/screens_slider.php'); ?>
