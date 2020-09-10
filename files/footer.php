@@ -28,7 +28,7 @@
 					<div class="widget">
 						<h3 class="block-title">Quick Links</h3>
 						<ul class="menu">
-							<li><a href="<?=$url;?>404.php">FAQ</a></li>
+							<li><a href="<?=$url;?>faq.php">FAQ</a></li>
 							<li><a href="<?=$url;?>career.php">Career</a></li>
 							<li><a href="<?=$url;?>404.php">Help</a></li>
 							<li><a href="<?=$url;?>404.php">Report</a></li>
