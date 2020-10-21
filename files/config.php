@@ -1,5 +1,6 @@
 <?php
 
+
 if ( $_SERVER['HTTP_HOST'] == 'localhost') {
 	$url = 'http://'.$_SERVER['HTTP_HOST'].'/keeraanakaro.com/';
 	$keeraana_dashboard_url = 'http://localhost/keeraana/';
@@ -7,7 +8,7 @@ if ( $_SERVER['HTTP_HOST'] == 'localhost') {
 }else{
 	$url = 'https://keeraanakaro.com/';
 	$keeraana_dashboard_url = 'https://virajify.com/keeraana/';
-	$db_password = 'qmzpal#3792';
+	$db_password = 'MahitNahi#1234a';
 }
 
 $title = 'Keeraanakaro | Grocery Delivery services';
