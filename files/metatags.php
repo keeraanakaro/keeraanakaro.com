@@ -28,9 +28,9 @@
 	<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 	<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 
-	<link href="<?=$url?>img/keeraanakaro_favicon.png" rel="icon" type="image/x-icon">
-	<link href="<?=$url?>img/keeraanakaro_favicon.png" rel="apple-touch-icon" type="image/x-icon">
-	<link href="<?=$url?>img/keeraanakaro_favicon.png" rel="shortcut icon" type="image/x-icon">
+	<link href="<?=$url?>img/Keeraanakaro_favicon.png" rel="icon" type="image/x-icon">
+	<link href="<?=$url?>img/Keeraanakaro_favicon.png" rel="apple-touch-icon" type="image/x-icon">
+	<link href="<?=$url?>img/Keeraanakaro_favicon.png" rel="shortcut icon" type="image/x-icon">
 
 	<link rel="canonical" href="<?=$url?>index.php">
 	<link rel="shortlink" href="<?=$url?>index.php">
