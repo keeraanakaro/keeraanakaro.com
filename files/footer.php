@@ -41,10 +41,10 @@
 						<h3 class="block-title">Support</h3>
 						<ul class="menu">
 							<li><a href="<?=$url;?>terms_conditions.php">Terms & Conditions</a></li>
-							<li><a href="<?=$url;?>404.php">Refund & Cancellation</a></li>
+							<!-- <li><a href="<?=$url;?>404.php">Refund & Cancellation</a></li> -->
 							<li><a href="<?=$url;?>privacy_policy.php">Privacy Policy</a></li>
 							<li><a href="<?=$url;?>404.php">Cookie Policy</a></li>
-							<li><a href="<?=$url;?>404.php">Offer Terms</a></li>
+							<!-- <li><a href="<?=$url;?>404.php">Offer Terms</a></li> -->
 						</ul>
 					</div>
 				</div>
@@ -66,7 +66,6 @@
 						<div class="site-info text-center">
 							<p>&copy; <?=date('Y')?> Keeraana E-commerce Services Pvt. Ltd. All Rights Reserved.</p>
 							<p>CIN : U52100PN2020PTC190785. Udyog Aadhaar Registration : UDYAM-MH-29-0001091</p>
-							<p>Regd. Office : FL 4 Hari Prasad Complex, Vantmure Corner, Miraj, Sangli, Maharashtra, India, 416410.</p>
 						</div>
 					</div>
 

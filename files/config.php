@@ -14,7 +14,8 @@ if ( $_SERVER['HTTP_HOST'] == 'localhost') {
 $title = 'Keeraanakaro | Grocery Delivery services';
 $description = 'Keeraanakaro is an delivery services organization based in India. Focusing on Fast, Effective and Efficient Delivery.';
 $playstore = 'https://play.google.com/store/apps/details?id=com.keeraanakaro.user';
-$applestore = 'https://apps.apple.com/in/app/keeraanakaro/id1524161506';
+// $applestore = 'https://apps.apple.com/in/app/keeraanakaro/id1524161506';
+$applestore = 'comming_soon.php';
 
 $servername = "localhost";
 $username = "root";
