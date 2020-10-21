@@ -14,6 +14,9 @@
 
 <body>
 
+	<?php require_once('files/below_body.php'); ?>
+
+
 	<header id="home" class="hero-area-2">
 		<div class="overlay"></div>
 		

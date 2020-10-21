@@ -462,8 +462,8 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		.back-to-top {
 			display: none;
 			position: fixed;
-			bottom: 18px;
-			right: 15px;
+			bottom: 30px;
+			right: 130px;
 			width: 45px;
 			height: 45px;
 			line-height: 50px;
