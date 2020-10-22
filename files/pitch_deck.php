@@ -1,4 +1,4 @@
-<div id="pitch_deck" class="section">
+<!-- <div id="pitch_deck" class="section">
 	<div class="container">
 		<div class="row justify-content-center">
 			<div class="col-lg-12 col-md-12 col-xs-12">
@@ -16,4 +16,4 @@
 			</div>
 		</div>
 	</div>
-</div>
+</div> -->
