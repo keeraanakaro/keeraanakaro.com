@@ -1,11 +1,9 @@
 	<section class="video-promo section">
-		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 col-sm-12">
-					<div class="video-promo-content text-center">
-						<a href="https://www.youtube.com/watch?v=sOfOH5EgD5s" class="video-popup"><i class="lni-film-play"></i></a>
-						<h2 class="mt-3 wow zoomIn" data-wow-duration="1000ms" data-wow-delay="100ms">Watch Video</h2>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="https://www.youtube.com/embed/sOfOH5EgD5s?vq=hd720&modestbranding=1&rel=0&cc_load_policy=1&iv_load_policy=3&theme=light" style="height:560px;" frameborder="0"></iframe>
 					</div>
 				</div>
 			</div>

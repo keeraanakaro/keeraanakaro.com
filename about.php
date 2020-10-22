@@ -34,6 +34,7 @@
 		</div>
 	</header>
 
+	<?php require_once('files/pitch_deck.php'); ?>
 	
 	<?php require_once('files/video.php'); ?>
 
@@ -49,7 +50,6 @@
 				<div class="col-lg-6 col-md-12 col-sm-12">
 					<div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
 						<div>
-							<p class="btn btn-subtitle">About KeeraanaKaro</p>  
 							<h3>Simple, Safe and Secure</h3>
 							<p>Shop on the Keeraanakaro and buy groceries, fresh fruits & vegetables, cakes & other bakery items, meats & seafood, cosmetics and baby care products. We get it all delivered at your doorstep within hours. You not only save time but also money with our best prices and offers. We get savings.</p>
 						</div>
@@ -60,7 +60,6 @@
 				<div class="col-lg-6 col-md-12 col-sm-12">
 					<div class="text-wrapper wow fadeInRight" data-wow-delay="0.3s">
 						<div>
-							<p class="btn btn-subtitle">Update</p>  
 							<h3>Intractive</h3>
 							<p>Keeraanakaro is here to change the way you shop. We’re an app that connects you to the nearest delivery partner who can make purchases, pick up items from any store in the city and bring them to you.</p>
 						</div>
@@ -74,8 +73,6 @@
 			</div>
 		</div>
 	</div>
-	<!-- Features Section End -->   
-
 
 	<?php require_once('files/screens_slider.php'); ?>
 

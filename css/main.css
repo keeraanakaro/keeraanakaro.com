@@ -808,10 +808,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		========================================================================== */
 
 		.video-promo {
-			background: #00dbff;
-			background: #00dbff;
-			background: #00dbff;
-			
+			background:#7aa1a8;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
@@ -1850,11 +1847,11 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		}
 
 		#blog .blog-item-text {
-			padding:20px;
+			padding: 20px 5px;
 		}
 
 		#blog .blog-item-text h3 {
-			font-size:17px;
+			font-size:15px;
 			font-weight:500;
 		}
 
@@ -1986,6 +1983,14 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 		background: -ms-linear-gradient(0deg, #3c96ff 0%, #9707e8 100%);
 		background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%);
 		position: relative;
+	}
+
+	#pitch_deck {
+		background: url('../img/pitch_background.png') no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	.subscribe-form {

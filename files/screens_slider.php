@@ -2,8 +2,7 @@
 	<section id="screenshots" class="screens-shot section">
 		<div class="container">
 			<div class="section-header">   
-				<p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Screenshots</p>       
-				<h2 class="section-title">App Screens</h2>
+				<h2 class="section-title wow fadeInDown" data-wow-delay="0.2s">App Screens</h2>
 			</div>
 			<div class="row">
 				<div class="touch-slider owl-carousel">

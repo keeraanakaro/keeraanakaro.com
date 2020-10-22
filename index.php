@@ -13,7 +13,6 @@
 
 	<?php require_once('files/below_body.php'); ?>
 
-
 	<header id="home" class="hero-area-2">
 		<div class="overlay"></div>
 		
@@ -41,13 +40,15 @@
 	</header>
 
 
+	<?php require_once('files/pitch_deck.php'); ?>
+
+
 	<?php require_once('files/upcoming_feature.php'); ?>
 
 
 	<?php require_once('files/video.php'); ?>
 
 
-	<!-- Features Section Start -->
 	<div id="features-two" class="section">
 		<div class="container">
 			<div class="row">
@@ -77,7 +78,6 @@
 				<div class="col-lg-7 col-md-12 col-sm-12">
 					<div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
 						<div>
-							<p class="btn btn-subtitle">Our Mission</p>  
 							<h3>Our mission is to enable anything delivered on demand.</h3>
 							<p>Keeraanakaro is transforming the way goods move around cities through our revolutionary APP that connects customers with local groceries where you can order your items and get in minutes. We empower communities to shop local and empower businesses to grow through our APP.</p>
 							<a class="btn btn-rm" href="<?=$url?>about.php">
@@ -94,30 +94,23 @@
 			</div>
 		</div>
 	</div>
-	<!-- Features Section End -->   
-
 
 	<?php require_once('files/subscribe.php'); ?>
 
 
 	<?php require_once('files/screens_slider.php'); ?>
 
-
-	<!-- Features Section Start -->
 	<div id="features-two" class="section">
 		<div class="container">
 			
 			<div class="row mt">
 				<div class="col-lg-7 col-md-12 col-sm-12">
 					<div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
-						<div>
-							<p class="btn btn-subtitle">About KeeraanaKaro</p>  
 							<h3>About Keeraanakaro</h3>
 							<p>We feature a great selection of high-quality merchandise, friendly service and, of course, Every Day Low Prices. We also have another goal: to bring you the best shopping experience on the Internet.</p>
 							<a class="btn btn-rm" href="<?=$url?>about.php">
 								Read More <i class="lni-arrow-right"></i>
 							</a>
-						</div>
 					</div>
 				</div>
 				<div class="col-lg-5 col-md-12 col-sm-12">
@@ -136,7 +129,6 @@
 				<div class="col-lg-7 col-md-12 col-sm-12">
 					<div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s">
 						<div>
-							<p class="btn btn-subtitle">Why KeeraanaKaro?</p>  
 							<h3>Why should I use Keeraanakaro APP?</h3>
 							<p>Keeraanakaro allows you to walk away from the drudgery of grocery shopping and welcome an easy relaxed way of browsing and shopping for groceries. Discover new products and shop for all your food and grocery needs from the comfort of your home or office. No more getting stuck in traffic jams, paying for parking, standing in long queues and carrying heavy bags – get everything you need, when you need, right at your doorstep. Food shopping online is now easy as every product on your monthly shopping list, is now available online at keeraanakaro India’s best online grocery store.</p>
 							<a class="btn btn-rm" href="<?=$url?>about.php">
@@ -149,7 +141,6 @@
 
 		</div>
 	</div>
-	<!-- Features Section End -->   
 
 
 	<?php require_once('files/subscribe.php'); ?>

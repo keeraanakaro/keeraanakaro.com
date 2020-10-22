@@ -40,36 +40,89 @@
 		<!-- Container Starts -->
 		<div class="container">
 			<div class="section-header">   
-				<p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Stores</p> 
 				<h2 class="section-title">Keeraana Stores</h2>
 			</div>
 			<div class="row">
 
-				<?php
-				$sql = "SELECT name, shop_name, image, vendor_number FROM vendor_master WHERE status = '1' ";
-				$result = $conn->query($sql);
-
-				if ($result->num_rows > 0) {
-					while($row = $result->fetch_assoc()) {
-
-						echo '
-						<div class="col-lg-3 col-md-6 col-xs-12 blog-item">
-						<div class="blog-item-wrapper">
+				<div class="col-lg-3 col-md-6 col-xs-12 blog-item">
+					<div class="blog-item-wrapper">
 						<div class="blog-item-img">
-						<img class="img-fluid" src="'.$keeraana_dashboard_url.'/images/vendors/'.$row["image"].'" alt="">
+							<img class="img-fluid" src="<?= $url.'/img/stores/004.jpg'?>" alt="">
 						</div>
 						<div class="blog-item-text">
-						<h3 class="text-center">'.strtoupper($row["shop_name"]).'</h3>
-						<div class="author text-center">
-						<span class="name">'.ucwords($row["name"]).'</span>
+							<h3 class="text-center">Shah Kirana</h3>
+							<div class="author text-center">
+								<span class="name">Nachiket Shah</span>
+							</div>
 						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12 blog-item">
+					<div class="blog-item-wrapper">
+						<div class="blog-item-img">
+							<img class="img-fluid" src="<?= $url.'/img/stores/003.jpg'?>" alt="">
 						</div>
+						<div class="blog-item-text">
+							<h3 class="text-center">General Kirana Store</h3>
+							<div class="author text-center">
+								<span class="name">Viraj Kadam</span>
+							</div>
 						</div>
-						</div>';
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-xs-12 blog-item">
+					<div class="blog-item-wrapper">
+						<div class="blog-item-img">
+							<img class="img-fluid" src="<?= $url.'/img/stores/002.jpg'?>" alt="">
+						</div>
+						<div class="blog-item-text">
+							<h3 class="text-center">Maharashtra Kirana Stores</h3>
+							<div class="author text-center">
+								<span class="name">Shreyansh Nandrekar</span>
+							</div>
+						</div>
+					</div>
+				</div>
 
-					}
-				}
-				$conn->close();
+				<div class="col-lg-3 col-md-6 col-xs-12 blog-item">
+					<div class="blog-item-wrapper">
+						<div class="blog-item-img">
+							<img class="img-fluid" src="<?= $url.'/img/stores/001.jpg'?>" alt="">
+						</div>
+						<div class="blog-item-text">
+							<h3 class="text-center">Sangli Stores</h3>
+							<div class="author text-center">
+								<span class="name">Tejas Patil</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<?php
+				// $sql = "SELECT name, shop_name, image, vendor_number FROM vendor_master WHERE status = '1' ";
+				// $result = $conn->query($sql);
+
+				// if ($result->num_rows > 0) {
+				// 	while($row = $result->fetch_assoc()) {
+
+				// 		echo '
+				// 		<div class="col-lg-3 col-md-6 col-xs-12 blog-item">
+				// 		<div class="blog-item-wrapper">
+				// 		<div class="blog-item-img">
+				// 		<img class="img-fluid" src="'.$keeraana_dashboard_url.'/images/vendors/'.$row["image"].'" alt="">
+				// 		</div>
+				// 		<div class="blog-item-text">
+				// 		<h3 class="text-center">'.strtoupper($row["shop_name"]).'</h3>
+				// 		<div class="author text-center">
+				// 		<span class="name">'.ucwords($row["name"]).'</span>
+				// 		</div>
+				// 		</div>
+				// 		</div>
+				// 		</div>';
+
+				// 	}
+				// }
+				// $conn->close();
 				?>
 
 			</div>
