@@ -37,7 +37,7 @@ if (isset($_POST['upload'])){
 		<br>
 		<p class="text-center" style="font-size:12px;color:#777;">Enter Todays Password to Upload Files</p>
 		<div class="form-label-group">
-			<input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" pattern="\d{4}" maxlength="4" autofocus required autocomplete="off" >
+			<input type="text" id="inputPassword" class="form-control" placeholder="Password" name="password" pattern="\d{4}" maxlength="4" autofocus required autocomplete="off" >
 			<label for="inputPassword">Password</label>
 		</div>
 
