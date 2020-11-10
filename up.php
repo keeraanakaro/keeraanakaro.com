@@ -15,24 +15,30 @@ if (isset($_POST['upload'])){
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://getbootstrap.com/docs/4.0/examples/floating-labels/floating-labels.css" rel="stylesheet">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/4.0/examples/floating-labels/floating-labels.css" rel="stylesheet">
+</head>
 
-	<body>
+<body>
 	<form class="form-signin" action="up.php" method="post" >
 		<div class="text-center mb-5">
-		<h1 class="h2 mb-3 font-weight-normal">Virajify Technologies</h1>
-		<h6>Portal for secure file upload to server.</h6>
+			<h1 class="h2 mb-3 font-weight-normal">Virajify Technologies</h1>
+			<h6>Portal for secure file upload to server.</h6>
 		</div>
 
+		<div class="text-center">
+			<h1>KEERAANAKARO.COM</h1>
+			<a href="//<?=$_SERVER["HTTP_HOST"]?>/keeraanakaro.com">ORIGINAL SITE</a>
+		</div>
+
+		<br>
 		<p class="text-center" style="font-size:12px;color:#777;">Enter Todays Password to Upload Files</p>
 		<div class="form-label-group">
-		<input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" pattern="\d{4}" maxlength="4" autofocus required autocomplete="off" >
-		<label for="inputPassword">Password</label>
+			<input type="password" id="inputPassword" class="form-control" placeholder="Password" name="password" pattern="\d{4}" maxlength="4" autofocus required autocomplete="off" >
+			<label for="inputPassword">Password</label>
 		</div>
 
 		<p class="text-center" style="font-size:12px;color:#777;">All Activities on this Page are Tracked & Monitored</p>
@@ -41,5 +47,5 @@ if (isset($_POST['upload'])){
 		<p class="mt-5 bt-5 text-muted text-center"><?=$string?></p>
 
 	</form>
-	</body>
+</body>
 </html>
