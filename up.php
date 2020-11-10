@@ -31,7 +31,7 @@ if (isset($_POST['upload'])){
 
 		<div class="text-center">
 			<h1>KEERAANAKARO.COM</h1>
-			<a href="//<?=$_SERVER["HTTP_HOST"]?>/keeraanakaro.com">ORIGINAL SITE</a>
+			<a href="//<?=$_SERVER["HTTP_HOST"]?>">ORIGINAL SITE</a>
 		</div>
 
 		<br>
