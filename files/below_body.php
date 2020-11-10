@@ -1,3 +1,8 @@
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R3G2W1ZCBM"></script>
+<script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);} gtag('js', new Date());gtag('config', 'G-R3G2W1ZCBM');
+</script>
+
 <script type="text/javascript">
 	var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 	(function(){ var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
