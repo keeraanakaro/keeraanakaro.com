@@ -2,7 +2,7 @@
 		<div class="container">
 			<div class="section-header">   
 				<p class="btn btn-subtitle wow fadeInDown" data-wow-delay="0.2s">Team</p>       
-				<h2 class="section-title">Strong Pillars of KeeraanaKaro</h2>
+				<!-- <h2 class="section-title">Strong Pillars of KeeraanaKaro</h2> -->
 			</div>
 			<div class="row">
 
