@@ -15,10 +15,10 @@
 						<h3 class="block-title">Site Map</h3>
 						<ul class="menu">
 							<li><a href="<?=$url;?>">Home</a></li>
-							<li><a href="<?=$url;?>features.php">Features</a></li>
-							<li><a href="<?=$url;?>store.php">Stores</a></li>
-							<li><a href="<?=$url;?>about.php">About us</a></li>
-							<li><a href="<?=$url;?>contact.php">Contact Us</a></li>
+							<li><a href="<?=$url;?>features">Features</a></li>
+							<li><a href="<?=$url;?>store">Stores</a></li>
+							<li><a href="<?=$url;?>about">About us</a></li>
+							<li><a href="<?=$url;?>contact">Contact Us</a></li>
 						</ul>
 					</div>
 				</div>
@@ -28,10 +28,10 @@
 					<div class="widget">
 						<h3 class="block-title">Quick Links</h3>
 						<ul class="menu">
-							<li><a href="<?=$url;?>faq.php">FAQ</a></li>
-							<li><a href="<?=$url;?>career.php">Career</a></li>
-							<li><a href="<?=$url;?>404.php">Help</a></li>
-							<li><a href="<?=$url;?>404.php">Report</a></li>
+							<li><a href="<?=$url;?>faq">FAQ</a></li>
+							<li><a href="<?=$url;?>career">Career</a></li>
+							<li><a href="<?=$url;?>404">Help</a></li>
+							<li><a href="<?=$url;?>404">Report</a></li>
 						</ul>
 					</div>
 				</div>
@@ -40,11 +40,11 @@
 					<div class="widget">
 						<h3 class="block-title">Support</h3>
 						<ul class="menu">
-							<li><a href="<?=$url;?>terms_conditions.php">Terms & Conditions</a></li>
-							<!-- <li><a href="<?=$url;?>404.php">Refund & Cancellation</a></li> -->
-							<li><a href="<?=$url;?>privacy_policy.php">Privacy Policy</a></li>
-							<li><a href="<?=$url;?>404.php">Cookie Policy</a></li>
-							<!-- <li><a href="<?=$url;?>404.php">Offer Terms</a></li> -->
+							<li><a href="<?=$url;?>terms_conditions">Terms & Conditions</a></li>
+							<!-- <li><a href="<?=$url;?>404">Refund & Cancellation</a></li> -->
+							<li><a href="<?=$url;?>privacy_policy">Privacy Policy</a></li>
+							<li><a href="<?=$url;?>404">Cookie Policy</a></li>
+							<!-- <li><a href="<?=$url;?>404">Offer Terms</a></li> -->
 						</ul>
 					</div>
 				</div>

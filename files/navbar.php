@@ -10,13 +10,16 @@
 					<a class="nav-link" href="<?=$url;?>">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="<?=$url;?>features.php">Features</a>
-				</li>  
-				<li class="nav-item">
-					<a class="nav-link" href="<?=$url;?>store.php">Stores</a>
+					<a class="nav-link" href="<?=$url;?>apps">Apps</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="<?=$url;?>about.php">About</a>
+					<a class="nav-link" href="<?=$url;?>features">Features</a>
+				</li>  
+				<li class="nav-item">
+					<a class="nav-link" href="<?=$url;?>store">Stores</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="<?=$url;?>about">About</a>
 				</li> 
 			</ul>
 		</div>

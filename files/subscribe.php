@@ -10,6 +10,9 @@
 							<a href="<?=$playstore?>" class="btn btn-common" target="_blank" data-toggle="tooltip" title="Download on Playstore" >
 								<i class="lni-android"></i> Android PlayStore<br>
 							</a>
+							<a href="<?=$applestore?>" class="btn btn-common" target="_blank" data-toggle="tooltip" title="Download on AppStore" >
+								<i class="lni-apple"></i> iOS Appstore<br>
+							</a>
 						</div>
 					</div>
 				</div>
