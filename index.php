@@ -24,10 +24,16 @@
 					<div class="contents">
 						<h2 class="head-title">ONE SOLUTION FOR ALL YOUR GROCERY NEEDS</h2>
 						<p>Whatever you want, we get it. Order delivery for yourself or with friends and watch in real-time as your Keeraanakaro brings you all the things you love.</p>
-						<div class="header-button">
-							<a href="<?=$applestore?>" target="_blank" data-toggle="tooltip" title="Download on Appstore" class="btn btn-border-filled"> <i class="lni-apple"></i> Apple Appstore</a>
-							<a href="<?=$playstore?>" target="_blank" data-toggle="tooltip" title="Download on Playstore" class="btn btn-border-filled"> <i class="lni-android"></i> Google Playstore</a>
+
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-6 col-6 header-button">
+								<a href="<?=$applestore?>" target="_blank" data-toggle="tooltip" title="Download on Appstore" class="btn btn-border-filled"> <i class="lni-apple"></i> Apple Appstore</a>
+							</div>
+							<div class="col-lg-5 col-md-5 col-sm-6 col-6 header-button">
+								<a href="<?=$playstore?>" target="_blank" data-toggle="tooltip" title="Download on Playstore" class="btn btn-border-filled"> <i class="lni-android"></i> Google Playstore</a>
+							</div>				
 						</div>
+
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-12 col-xs-12">
@@ -58,7 +64,7 @@
 					</div>
 				</div>
 				<div class="col-lg-7 col-md-12 col-sm-12">
-					<div class="text-wrapper wow fadeInRight" data-wow-delay="0.6s"><br>
+					<div class="features wow fadeInRight" data-wow-delay="0.6s"><br>
 						<h3>Grocery Market in Your Pocket</h3>
 						<p>Faster shopping with a whole new way to search and navigate. Shop your last order again with just one click. Check out easily - just one step!</p>
 						<br>
@@ -68,9 +74,14 @@
 						<a class="btn btn-rm" href="<?=$url?>features.php">
 							Read More <i class="lni-arrow-right"></i>
 						</a>
-						<br><br>
-						<a href="<?=$applestore?>" target="_blank" data-toggle="tooltip" title="Download on Appstore" class="btn btn-subtitle"> <i class="lni-apple"></i> Apple Appstore</a>
-						<a href="<?=$playstore?>" target="_blank" data-toggle="tooltip" title="Download on Playstore" class="btn btn-subtitle"> <i class="lni-android"></i> Google Playstore</a>
+					</div>
+					<div class="row">
+						<div class="col-lg-5 col-md-5 col-sm-6 col-6">
+							<a href="<?=$applestore?>" target="_blank" data-toggle="tooltip" title="Download on Appstore" class="btn btn-subtitle"> <i class="lni-apple"></i> Apple Appstore</a>
+						</div>
+						<div class="col-lg-5 col-md-5 col-sm-6 col-6">
+							<a href="<?=$playstore?>" target="_blank" data-toggle="tooltip" title="Download on Playstore" class="btn btn-subtitle"> <i class="lni-android"></i> Google Playstore</a>
+						</div>
 					</div>
 				</div>
 			</div>
