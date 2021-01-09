@@ -2,7 +2,7 @@
 	<section class="footer-Content">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-12">
 					<img src="<?=$url;?>img/logo.png" alt="Logo" style="width:70%;margin-bottom:20px;">
 					<div class="textwidget">
 						<p>You can get the products at your doorstep in just 4 to 5 clicks. You will be notified about all orders so that you can keep the track of the products also you can download the invoice of your products.</p>
@@ -10,7 +10,7 @@
 				</div>
 
 
-				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
 					<div class="widget">
 						<h3 class="block-title">Site Map</h3>
 						<ul class="menu">
@@ -24,7 +24,7 @@
 				</div>
 
 
-				<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				<div class="col-lg-2 col-md-6 col-sm-6 col-6">
 					<div class="widget">
 						<h3 class="block-title">Quick Links</h3>
 						<ul class="menu">
@@ -36,7 +36,7 @@
 					</div>
 				</div>
 
-				<div class="col-lg-3 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+				<div class="col-lg-3 col-md-6 col-sm-6 col-6">
 					<div class="widget">
 						<h3 class="block-title">Support</h3>
 						<ul class="menu">
