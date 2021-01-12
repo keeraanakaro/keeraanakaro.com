@@ -17,11 +17,11 @@ $playstore = 'https://play.google.com/store/apps/details?id=com.keeraanakaro.use
 $playstore_vendor = 'https://play.google.com/store/apps/details?id=com.keeraanakaro.vendor';
 $applestore = 'https://apps.apple.com/in/app/keeraanakaro/id1524161506';
 
-$servername = "localhost";
-$username = "root";
-$dbname = "keeraana";
+// $servername = "localhost";
+// $username = "root";
+// $dbname = "keeraana";
 
-$conn = new mysqli($servername, $username, $db_password, $dbname);
-if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
+// $conn = new mysqli($servername, $username, $db_password, $dbname);
+// if ($conn->connect_error) { die("Connection failed: " . $conn->connect_error); }
 
 ?>

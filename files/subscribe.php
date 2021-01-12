@@ -7,10 +7,10 @@
 						<div class="sub-title text-center">
 							<h3>Download App</h3>
 							<p>KeeraanaKaro mobile application is now available on Google Play Store</p><br>
-							<a href="<?=$playstore?>" class="btn btn-common" target="_blank" data-toggle="tooltip" title="Download on Playstore" >
+							<a href="<?=$playstore?>" class="btn btn-border-filled" target="_blank" data-toggle="tooltip" title="Download on Playstore" >
 								<i class="lni-android"></i> Android PlayStore<br>
 							</a>
-							<a href="<?=$applestore?>" class="btn btn-common" target="_blank" data-toggle="tooltip" title="Download on AppStore" >
+							<a href="<?=$applestore?>" class="btn btn-border-filled" target="_blank" data-toggle="tooltip" title="Download on AppStore" >
 								<i class="lni-apple"></i> iOS Appstore<br>
 							</a>
 						</div>
