@@ -173,7 +173,7 @@
     padding-bottom: 0px;
   }
   .hero-area-2 .intro-img {
-    padding: 20px 0px 0px;
+    padding: 20px 0px 10px;
   }
   .hero-area .intro-img {
     padding: 60px 0 0;
@@ -307,11 +307,14 @@
   .bg-inverse {
     background: linear-gradient(to right, #3c96ff 0%, #9707e8 100%) !important;
   }
-  .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
-    margin: 5px 10px;
+    margin: 25px 15px;
   }
-  img{width: 70% !important;}
+  /*img{width: 65% !important;}*/
+
+  .navTop{
+    top: 20px;
+  }
 
   #team .container img{
     width: 100% !important;
@@ -353,22 +356,19 @@
     padding: 100px 0 10px;
   }
   .hero-area-2 .contents .btn {
-    margin-top: 20px;
-    margin-left: -10px;
-    font-size: 0.9em;
-    padding: 10px 10px;
+    margin: 20px -13px;
+    font-size: 0.8em;
+    padding: 10px;
   }
   #features-two .container .btn{
-    margin-top: 20px !important;
-    margin-left: -10px !important;
-    font-size: 0.9em !important;
-    padding: 10px 10px !important;
+    margin: 0px -5px;
+    font-size: 0.8em;
+    padding: 10px;
   }
   #subscribe .container .btn {
-    margin-top: 20px;
-    margin-left: 0px;
-    font-size: 0.9em;
-    padding: 10px 10px;
+    margin: 10px 5px;
+    font-size: 0.8em;
+    padding: 10px;
   }
   .intro-img {
     padding: 0;
