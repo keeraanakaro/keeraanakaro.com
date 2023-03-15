@@ -15,4 +15,4 @@ git pull origin master
 chmod -R 777 ../keeraanakaro.com/
 chown -R www-data:www-data ../keeraanakaro.com/
 
-git push
+git push origin HEAD:master
